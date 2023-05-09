@@ -8,6 +8,12 @@
   --cloud: #f4f4fd;
 }
 
+.body-font {
+  font-family: Roboto, sans sans-serif;
+  color: #434455;
+  background-color: var(--white);
+}
+
 div.scrollmenu {
   background-color: var(--white);
   overflow: auto;
