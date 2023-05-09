@@ -6,6 +6,7 @@
   --ocean: #404bbf;
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
+  --navy-blue: #2e2f42;
 }
 
 .body-font {
@@ -47,12 +48,16 @@ div.scrollmenu a:hover {
   border-radius: 4px;
   text-decoration: none;
   color: var(--iris);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo2 {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: var(--navy-blue);
+  font-family: Raleway, sans-serif;
   font-size: 18px;
 }
 
@@ -64,9 +69,11 @@ div.scrollmenu a:hover {
   list-style: none;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  color: #2e2f42;
+  color: var(--navy-blue);
   justify-content: center;
   text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .contacts {
   display: flex;
@@ -76,7 +83,7 @@ div.scrollmenu a:hover {
   list-style: none;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  color: #2e2f42;
+  color: --navy-blue;
 }
 .header_hero {
   color: var(--white);
