@@ -7,11 +7,12 @@
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
   --navy-blue: #2e2f42;
+  --slate: #434455;
 }
 
-.body-font {
+.general-font {
   font-family: Roboto, sans-serif;
-  color: #434455;
+  color: var(--slate);
   background-color: var(--white);
 }
 
@@ -23,7 +24,7 @@ div.scrollmenu {
 
 div.scrollmenu a {
   display: inline-block;
-  color: #2e2f42;
+  color: var(--navy-blue);
   text-align: center;
   padding: 14px;
   text-decoration: none;
@@ -103,7 +104,7 @@ div.scrollmenu a:hover {
   background: var(--iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -125,7 +126,7 @@ div.scrollmenu a:hover {
   background: var(--iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -296,7 +297,7 @@ div.scrollmenu a:hover {
   width: 100%;
   height: 600px;
   text-align: center;
-  background-color: #2e2f42;
+  background-color: var(--navy-blue);
   margin-bottom: 81px;
 }
 .center_first_screen {
@@ -314,7 +315,7 @@ div.scrollmenu a:hover {
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .containerFeatures {
@@ -422,7 +423,7 @@ div.scrollmenu a:hover {
   margin-bottom: 89px;
   font-weight: 700;
   font-size: 36px;
-  color: #2e2f42;
+  color: var(--navy-blue);
   font-family: Roboto, sans-serif;
 }
 .card_team_member {
@@ -433,11 +434,11 @@ div.scrollmenu a:hover {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.footer {
+.footy {
   display: flex;
   width: 100%;
   height: 312px;
-  background-color: #2e2f42;
+  background-color: var(--navy-blue);
 }
 .footer_text {
   position: absolute;
@@ -448,7 +449,7 @@ div.scrollmenu a:hover {
 
   /* Body */
 
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
