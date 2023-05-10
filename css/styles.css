@@ -72,6 +72,13 @@ list {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+link:hover {
+  color: var(--ocean);
+}
+link:focus {
+  color: var(--ocean);
+}
+
 .menu {
   display: flex;
   gap: 8px;
@@ -484,4 +491,8 @@ list {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.footer_logo_p2 {
+  color: var(--cloud);
 }
