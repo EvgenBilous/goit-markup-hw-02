@@ -196,6 +196,23 @@ div.scrollmenu a:hover {
 .hero-button:focus {
   background-color: var(--ocean);
 }
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: var(--iris);
+  background-color: var(--cloud);
+  letter-spacing: 0.04em;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn.focus {
+  background-color: var(--ocean);
+}
+
 .all-button {
   flex-direction: row;
   justify-content: center;
