@@ -243,6 +243,9 @@ div.scrollmenu a:hover {
   text-transform: capitalize;
   color: var(--navy-blue);
 }
+.team {
+  background-color: var(--cloud);
+}
 .team-titles {
   font-size: 36px;
   line-height: 1.11;
