@@ -63,7 +63,7 @@ div.scrollmenu {
   overflow: auto;
   white-space: nowrap;
 }
-
+/* 
 div.scrollmenu a {
   display: inline-block;
   color: var(--navy-blue);
@@ -79,7 +79,7 @@ div.scrollmenu a:hover {
   position: fixed;
   top: 0;
   width: 100%;
-}
+} */
 .page-header {
   display: flex;
   align-items: center;
@@ -249,14 +249,14 @@ div.scrollmenu a:hover {
 .team {
   background-color: var(--cloud);
 }
-/* .team-titles {
+.team-titles {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-} */
+}
 
 /* .team-titles {
   font-weight: 500;
@@ -265,6 +265,7 @@ div.scrollmenu a:hover {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 } */
+
 .team-members-names {
   font-weight: 500;
   font-size: 20px;
