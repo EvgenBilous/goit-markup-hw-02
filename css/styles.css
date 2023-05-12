@@ -210,6 +210,7 @@ div.scrollmenu a:hover {
 
 .btn:hover,
 .btn.focus {
+  color:var(--white)
   background-color: var(--ocean);
 }
 
