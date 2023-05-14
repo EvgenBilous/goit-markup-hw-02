@@ -1,5 +1,4 @@
 :root {
-  --blue: #1e90ff;
   --white: #ffffff;
   --menu-color-hover: #e0dbdb;
   --iris: #4d5ae5;
@@ -50,6 +49,8 @@ body {
   font-style: normal;
   letter-spacing: 0.02em;
   color: var(--slate);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
 }
 .header-address-link {
   color: var(--slate);
@@ -100,8 +101,6 @@ div.scrollmenu a:hover {
 }
 .logo-second-word {
   color: var(--navy-blue);
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
 }
 
 .menu {
@@ -124,17 +123,13 @@ div.scrollmenu a:hover {
   color: var(--slate);
 }
 .contacts {
-  display: flex;
-  gap: 8px;
-  padding: 15px;
-  margin: 0;
   list-style: none;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   color: var(--slate);
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .first-item-contacts {
   font-size: 16px;
@@ -157,6 +152,7 @@ div.scrollmenu a:hover {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--white);
 }
 .hero-item {
@@ -167,9 +163,6 @@ div.scrollmenu a:hover {
 }
 
 .hero-button {
-  flex-direction: row;
-  justify-content: center;
-  gap: 10px;
   width: 169px;
   height: 56px;
 
@@ -183,8 +176,6 @@ div.scrollmenu a:hover {
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
-  color: var(--white);
-  text-align: center;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--white);
@@ -199,7 +190,7 @@ div.scrollmenu a:hover {
 .btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   /* identical to box height, or 150% */
   color: var(--iris);
   background-color: var(--cloud);
@@ -260,10 +251,14 @@ div.scrollmenu a:hover {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+
 .team {
   background-color: var(--cloud);
 }
@@ -464,15 +459,6 @@ div.scrollmenu a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.center_headers {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  color: var(--navy-blue);
-}
 
 .containerFeatures {
   max-width: 1128px;
@@ -543,19 +529,10 @@ div.scrollmenu a:hover {
 }
 
 .card-set-services {
-  display: flex;
   /* Make a flex container multiline */
   /* flex-wrap: wrap; */
   /* Set gap between rows and columns */
-  gap: 24px;
-  padding: 0;
   list-style: none;
-  justify-content: center;
-  margin-bottom: 28px;
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: var(--slate);
 }
 .card-set-team {
   display: flex;
@@ -597,31 +574,15 @@ div.scrollmenu a:hover {
   background-color: var(--navy-blue);
 }
 .footer_text {
-  position: absolute;
   width: 264px;
-  height: 72px;
-  left: 156px;
-  margin-top: 140px;
-
-  /* Body */
-
   font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   /* or 150% */
-
   letter-spacing: 0.02em;
-
-  /* CLOUD */
-
   color: var(--cloud);
 }
 .footer_logo {
-  margin-left: 156px;
-  margin-top: 101.5px;
-  margin-bottom: 90px;
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
