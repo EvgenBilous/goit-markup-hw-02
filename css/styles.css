@@ -47,13 +47,14 @@ body {
 
 .header-address {
   font-style: normal;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
 }
 .header-address-link {
   color: var(--slate);
+  letter-spacing: 0.02em;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
 }
 .header-address-link:hover,
 .header-address-link:focus {
@@ -142,10 +143,6 @@ div.scrollmenu a:hover {
 
 .hero {
   background-color: var(--navy-blue);
-  font-style: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02;
-  color: var(--white);
 }
 .hero-header {
   font-size: 56px;
@@ -176,7 +173,6 @@ div.scrollmenu a:hover {
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
@@ -248,11 +244,9 @@ div.scrollmenu a:hover {
 }
 
 .products-titles {
-  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
@@ -575,7 +569,6 @@ div.scrollmenu a:hover {
 }
 .footer_text {
   width: 264px;
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   /* or 150% */
@@ -590,7 +583,6 @@ div.scrollmenu a:hover {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .footer-logo-p {
